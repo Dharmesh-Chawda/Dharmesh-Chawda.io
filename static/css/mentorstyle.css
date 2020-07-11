@@ -1,0 +1,199 @@
+.header
+{
+    margin-bottom: 0px;
+    width: 100%;
+    height: 400px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-image: url("static/images/mentor-head.jpg");
+    display: block;
+    
+}
+
+.header-text {
+    color: white;
+    padding-top: 150px;
+    padding-left: 50px;
+    padding-bottom: 50px;
+    font-family: Arial, Helvetica, sans-serif; 
+    object-fit: cover;
+
+}
+
+.headingtext
+{      
+   font-size: 50px;
+}
+
+.headingtext-p
+{      
+   font-size: 20px;
+}
+
+.mentor-btn
+{
+    width: 250px;
+    background-color: rgb(66, 160, 223);
+    margin-top: 10px;
+    color: white;
+    font-size: 20px;
+}
+
+.mentor-visual 
+{
+    margin-bottom: 50px;
+    height: 400px;
+}
+
+.join-btn
+{
+    width: 150px;
+    background-color: rgb(255, 60, 0);
+    margin-top: 10px;
+    color: white;
+
+    font-size: 20px;
+}
+
+.visualinner-img
+{
+    border-radius: 6px;
+    box-shadow: 4px 4px 25px -2px rgba(0, 0, 0, 0.3);
+    height: 170px;
+    width: 220px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 20px;
+} 
+
+
+* {
+box-sizing: border-box;
+}
+.visual-content
+{
+    padding-top: 30px;
+    padding-right: 20px;
+    padding-left: 20px;
+    
+}
+
+.mentor-content
+{
+    padding-top: 30px;
+    padding-bottom: 30px;
+    background-color: blanchedalmond;
+}
+
+.container.ment-content
+{
+    padding: 15px;
+}
+
+.mentd-content
+{
+    font-size: 20px;
+}
+
+.ment-img
+{
+    border-radius: 6px;
+    height: 100%;
+    width: 100%;
+}
+
+.visuald
+{
+    padding-bottom: 20px;
+}
+
+.visuald-content
+{
+    font-size: 18px;
+}
+
+.visual-heading
+{
+    margin-top: 10px;
+    font-weight: 300;
+    display: inline-block;
+    padding-bottom: 5px;
+    position: relative;
+    width: 100%;
+
+}
+.visual-heading::before
+{
+    content: "";
+    position: absolute;
+    width: 10%;
+    height: 1px;
+    bottom: 0;
+    left: 45%;
+    border-bottom: 2px solid rgb(148, 144, 144);
+}
+
+.columns
+{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    background-color: #dbdcdd;
+}
+
+.column
+{
+    flex: 1;
+    margin: 2px;
+    padding: 10px;
+    &:first-child { margin-left: 0; }
+    &:last-child { margin-right: 0; }
+    
+}
+
+
+  @media screen and (max-width: 680px)
+  {
+      .columns .column
+      {
+          flex-basis: 100%;
+          margin: 0 0 5px 0;
+      }
+  }
+
+
+
+
+@media (max-width:800px)
+{
+
+    .header
+    {
+        height: 350px;
+    }
+
+    .header-text
+    {
+        color: white;
+        padding-top: 170px;
+        padding-left: 20px;
+        padding-bottom: 20px;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+
+    .headingtext
+    {      
+        font-size: 35px;
+    }
+
+    .mentor-btn
+    {
+        width: 60%;
+        float: left;
+        background-color: rgb(66, 160, 223);
+        margin: 10px;
+        color: white;
+    }
+}

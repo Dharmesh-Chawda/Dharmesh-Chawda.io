@@ -1,0 +1,61 @@
+.ab-content
+{
+    margin-left: 40px;
+    margin-right: 40px;
+    margin-top: 80px;
+}
+
+.abd-content
+{
+    padding: 15px;
+}
+
+.abdd-content
+{
+    font-size: 20px;
+}
+
+.abvisuals
+{
+    margin-top: 30px;
+    margin-bottom: 30px;
+    margin-left: 40px;
+    margin-right: 40px;
+
+}
+
+.ab-img
+{
+    border-radius: 6px;
+    height: 100%;
+    width: 100%;
+}
+
+.card
+{
+    border-radius: 10px;
+}
+
+.card:hover
+{
+    border-width: 1px ;
+    border-color: black;
+}
+
+.card-img-top
+{
+    border-radius: 10px;
+}
+
+
+
+@media screen and (max-width: 680px)
+{
+    .card
+    {
+        margin-bottom: 10px;
+    }
+    
+    }
+
+

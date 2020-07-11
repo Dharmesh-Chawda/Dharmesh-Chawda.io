@@ -1,0 +1,147 @@
+.header
+{
+    margin-bottom: 0px;
+    width: 100%;
+    height: 400px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-image: url("static/images/contact-head.jpg");
+    display: block;
+    
+}
+
+.header-text
+{
+    color: white;
+    padding-top: 175px;
+    padding-left: 50px;
+    padding-bottom: 50px;
+    font-family: Arial, Helvetica, sans-serif; 
+    object-fit: cover;
+}
+
+.headingtext
+{      
+    font-size: 70px;
+}
+
+.headingtext-p
+{      
+    font-size: 25px;
+}
+
+
+.con-head
+{
+    font-size: 40px;
+    font-family :'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight:bold;
+    display: inline-block;
+    padding-bottom: 5px;
+    position: relative;
+    width: 100%;
+
+}
+.con-head::before
+{
+    content: "";
+    position: absolute;
+    width: 10%;
+    height: 1px;
+    bottom: 0;
+    left: 45%;
+    border-bottom: 3px solid rgb(23, 94, 226);
+    
+}
+
+
+.con-firstcol
+{
+    padding-top: 0px;
+    padding-left: 100px;
+}
+
+.con-info
+{
+    font-size: 18px;
+}
+
+.con-secondcol
+{
+    padding-top: 0px;
+}
+
+.address
+{
+    padding-top: 10px;
+}
+
+.support
+{
+    padding-top: 50px;
+}
+
+* {
+    box-sizing: border-box;
+}
+.con-column
+{
+    float: left;
+    width: 50%;
+    padding: 10px;
+    padding-top: 50px;
+    height: 530px; 
+    background-color: white;
+}
+
+.con-row:after
+{
+    content: "";
+    display: table;
+    clear: both;
+}
+
+@media screen and (max-width: 850px)
+{
+    .con-column
+    {
+        width: 100%;
+        height: 450px;
+    }
+
+    .address
+    {
+        margin-top: 20px;
+    }
+
+    .support
+    {
+        padding-top: 30px;
+    }
+    .con-firstcol
+    {
+        padding-left: 0px;
+    }
+}
+
+  @media (max-width:750px)
+{
+    .header
+    {
+        height: 350px;
+    }
+    .header-text
+    {
+        color: white;
+        padding-top: 150px;
+        padding-left: 20px;
+        padding-bottom: 20px;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+
+    .headingtext
+    {      
+        font-size: 35px;
+    }
+}

@@ -1,0 +1,73 @@
+html,body {
+    font-family: sans-serif;
+    max-width: 100%;
+    overflow-x: hidden;
+
+}
+
+#footer {
+background: #2e3339;
+padding-top: 20px;
+padding-bottom: 0px;
+color: #fff;
+font-size: 14px;
+}
+
+.intro-content
+{
+    font-size: 20px;
+}
+
+.carousel-item{
+    height: 500px;
+} 
+.carousel-item img{
+    height: 500px;
+}
+
+.nav-item
+{
+    font-size: 16px;
+    font-weight: bold;
+    color: #fff;
+    text-transform: uppercase;
+    position: relative;
+}
+
+.container.content
+{
+    padding-bottom: 30px;
+}
+
+.footer-info
+{
+    
+}
+.footer-links
+{
+    
+}
+.footer-contact
+{
+    
+}
+
+.fa
+{
+    padding: 10px;
+    font-size: 30px;
+    width: 30px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 50%;
+  }
+
+.fa:hover
+{
+    opacity: 0.7;
+}
+
+.fa-instagram
+{
+  color: ; 
+}
