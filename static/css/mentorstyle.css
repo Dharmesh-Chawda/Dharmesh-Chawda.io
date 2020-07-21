@@ -6,19 +6,16 @@
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
-    background-image: url("./../images/mentor-head.jpg");
+    background-image: url("./../images/contact-head.jpg");
     display: block;
     
 }
-
-.header-text {
-    color: white;
-    padding-top: 150px;
-    padding-left: 50px;
-    padding-bottom: 50px;
-    font-family: Arial, Helvetica, sans-serif; 
-    object-fit: cover;
-
+.header-text
+{       
+    display: block;
+    padding-top: 80px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-bottom: 20px;
 }
 
 .headingtext
@@ -28,34 +25,22 @@
 
 .headingtext-p
 {      
-   font-size: 20px;
+   font-size: 30px;
 }
 
 .mentor-btn
 {
-    width: 250px;
-    background-color: rgb(66, 160, 223);
+    width: 170px;
+    background-color: rgb(255, 0, 0);
     margin-top: 10px;
     color: white;
     font-size: 20px;
+    font-weight: bold;
 }
-
-.mentor-visual 
+.mentor-btn:hover
 {
-    margin-bottom: 50px;
-    height: 400px;
+    background-color: rgb(228, 28, 21);
 }
-
-.join-btn
-{
-    width: 150px;
-    background-color: rgb(255, 60, 0);
-    margin-top: 10px;
-    color: white;
-
-    font-size: 20px;
-}
-
 .visualinner-img
 {
     border-radius: 6px;
@@ -77,31 +62,8 @@ box-sizing: border-box;
     padding-top: 30px;
     padding-right: 20px;
     padding-left: 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     
-}
-
-.mentor-content
-{
-    padding-top: 30px;
-    padding-bottom: 30px;
-    background-color: blanchedalmond;
-}
-
-.container.ment-content
-{
-    padding: 15px;
-}
-
-.mentd-content
-{
-    font-size: 20px;
-}
-
-.ment-img
-{
-    border-radius: 6px;
-    height: 100%;
-    width: 100%;
 }
 
 .visuald
@@ -141,6 +103,7 @@ box-sizing: border-box;
     flex-flow: row wrap;
     justify-content: center;
     background-color: #dbdcdd;
+    margin-bottom: 20px;
 }
 
 .column
@@ -165,7 +128,7 @@ box-sizing: border-box;
 
 
 
-
+/* 
 @media (max-width:800px)
 {
 
@@ -196,4 +159,4 @@ box-sizing: border-box;
         margin: 10px;
         color: white;
     }
-}
+} */

@@ -1,116 +1,228 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-     <!-- Required meta tags -->
+    
+    <!-- Required meta tags -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
     <!-- Bootstrap CSS -->
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
-    <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" crossorigin="anonymous">
+
+    <!-- Custom Stylesheets -->
     <link rel="stylesheet" type="text/css" href="static/css/indexstyle.css">
     <link rel="stylesheet" type="text/css" href="static/css/aboutstyle.css">
-    <title>Synergy</title>
+
+    <!-- Icons external plugin -->
+    <script type="module" src="https://unpkg.com/ionicons@5.0.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule="" src="https://unpkg.com/ionicons@5.0.0/dist/ionicons/ionicons.js"></script>
+
+    <title>About Page</title>
 
 </head>
 
 <body>
 
-    <nav class="navbar navbar-dark bg-primary navbar-expand-md fixed-top">
+    <nav class="navbar navbar-expand-md fixed-top">
         <div class="container">
             <a href="index.html" class="navbar-brand">Synergy</a>
-            <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#idNav"><span class="navbar-toggler-icon"></span></button>
+            <div class="menu-toggle" data-toggle="collapse" data-target="#idNav" id="mobile-menu">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
             <div class="collapse navbar-collapse" id="idNav">
                 <ul class="navbar-nav ml-auto">
                     <li class="nav-item"><a href="index.html" class="nav-link">Home</a></li>
-                    <li class="nav-item"><a href="programs.html" class="nav-link">Our Programs</a></li>
                     <li class="nav-item active"><a href="about.html" class="nav-link">About Us</a></li>
-                    <li class="nav-item"><a href="mentor.html" class="nav-link">Mentor</a></li>
+                    <li class="nav-item"><a href="programs.html" class="nav-link">Our Programs</a></li>
+                    <li class="nav-item"><a href="projects.html" class="nav-link">Projects</a></li>
                     <li class="nav-item"><a href="contact.html" class="nav-link">Connect</a></li>
                 </ul>
             </div>
         </div>
     </nav>
 
-    <div class="ab-content">
-        <div class="row">
-            <div class="col-md-6">
-                <img class="img-fluid ab-img" height="100%" width="100%" src="static/images/about.jpg">
-            </div>
-            <div class="col-md-6">
-                <div class="abd-content">
-                    <h2 class="text-center">About Us</h2>
-                    <hr>
-                    <p class="text-center abdd-content">
-                        We are a community of learners. Synergy is made by the students
-                        for the students. It is a place where beginners are guided and
-                        mentored by their seniors.
-                    </p>
-                </div>
-            </div>
+    <div class="about-content">
+        <div class="container">
+            <h3 class="text-center about-heading">About Us</h3>
+            <hr>
+            <p class="text-center ab-content">
+                We are a community of learners. Synergy is made by the students
+                for the students. It is a place where beginners are guided and
+                mentored by their seniors.
+            </p>
         </div>
-        
     </div>
 
 
-<div class="abvisuals">
-    <div class="row">
-        <div class="col-md-4 ">
-            <div class="card">
-                <img class="card-img-top" src="static/images/abevent.jpg" alt="Card image" style="width:100%">
-                <div class="card-body">
-                    <h4 class="card-title">event 1</h4>
-                    <p class="card-text">Some summary about event.</p>
-                </div>
+
+    <section id="team" class="team content-section">
+
+        <div class="container team-content">
+            <div class="row text-center">
+              <div class="col-md-12">
+                <h2 class="ab-heading">Our Team</h2>
+                <h3 class="text-center">Meet the people who make awesome stuffs</h3>
+              </div>
             </div>
         </div>
-        <div class="col-md-4 ">
-            <div class="card">
-                <img class="card-img-top" src="static/images/abevent.jpg" alt="Card image" style="width:100%">
-                <div class="card-body">
-                    <h4 class="card-title">event 2</h4>
-                    <p class="card-text">Some summary about event.</p>
+
+        <div class="container">
+            <div class="row">
+    
+                <div class="col-md-6">
+                    <div class=" founder">
+                        <div class="team-member">
+                            <figure  text-center>
+                                <img src="static/images/team_avatar.jpg" class="img-team" height="350px" width="300px">
+                                <figcaption>
+                                    <h3 class="text-center member-name">Mihir Gada</h3>
+                                    <div class="sociala">
+                                        <ul>
+                                        <li><a href=""><ion-icon name="mail-open-outline"></ion-icon><span></a></li>
+                                        <li><a href=""><ion-icon  name="logo-linkedin"></ion-icon></a></li>
+                                        <li><a href=""><ion-icon name="logo-facebook"></ion-icon></a></li>
+                                        </ul>
+                                    </div>
+                                </figcaption>
+                            </figure>
+                            <h4>Mihir Gada</h4>
+                            <p>Co-founder</p>
+                        </div>
+                    </div>
                 </div>
-            </div>
-        </div>
-        <div class="col-md-4 ">
-            <div class="card">
-                <img class="card-img-top" src="static/images/abevent.jpg" alt="Card image" style="width:100%">
-                <div class="card-body">
-                    <h4 class="card-title">event 3</h4>
-                    <p class="card-text">Some summary about event.</p>
+    
+            <div class="col-md-6">
+              <div class=" founder">
+
+                <div class="team-member">
+                  <figure  text-center>
+                    <img src="static/images/team_avatar.jpg" class="img-team" height="350px" width="300px">
+                    <figcaption>
+                      <h3 class="text-center member-name">Param Shendekar</h3>
+                      <div class="sociala">
+                        <ul>
+                            <li><a href=""><ion-icon name="mail-open-outline"></ion-icon><span></a></li>
+                            <li><a href=""><ion-icon  name="logo-linkedin"></ion-icon></a></li>
+                            <li><a href=""><ion-icon name="logo-facebook"></ion-icon></a></li>
+                        </ul>
+                        </div>
+                    </figcaption>
+                  </figure>
+                  <h4>Param Shendekar</h4>
+                  <p>Co-founder</p>
                 </div>
+              </div>
             </div>
         </div>
     </div>
-</div>
+
+            <div class="container">
+              <div class="row">
+      
+                <div class="col-md-4">
+                  <div class="team-member">
+                    <figure>
+                      <img src="static/images/team_avatar.jpg" class="img-team" height="350px" width="300px">
+                      <figcaption>
+                        <h3 class="text-center member-name">Member Name</h3>
+                        <div class="sociala">
+                        <ul>
+                            <li><a href=""><ion-icon name="mail-open-outline"></ion-icon></a></li>
+                            <li><a href=""><ion-icon  name="logo-linkedin"></ion-icon></a></li>
+                            <li><a href=""><ion-icon name="logo-facebook"></ion-icon></a></li>
+                        </ul>
+                        </div>
+                      </figcaption>
+                    </figure>
+                    <h4>Member Name</h4>
+                    <p>Member Post</p>
+                  </div>
+                </div>
+      
+                <div class="col-md-4">
+                  <div class="team-member">
+                    <figure>
+                      <img src="static/images/team_avatar.jpg" class="img-team" height="350px" width="300px">
+                      <figcaption>
+                        <h3 class="text-center member-name">Member Name</h3>
+                        <div class="sociala">
+                        <ul>
+                            <li><a href=""><ion-icon name="mail-open-outline"></ion-icon></a></li>
+                            <li><a href=""><ion-icon  name="logo-linkedin"></ion-icon></a></li>
+                            <li><a href=""><ion-icon name="logo-facebook"></ion-icon></a></li>
+                        </ul>
+                        </div>
+                      </figcaption>
+                    </figure>
+                    <h4>Member Name</h4>
+                    <p>Member Post</p>
+                  </div>
+                </div>
+      
+                <div class="col-md-4">
+                  <div class="team-member">
+                    <figure>
+                      <img src="static/images/team_avatar.jpg" class="img-team" height="350px" width="300px">
+                      <figcaption>
+                        <h3 class="text-center member-name">Member Name</h3>
+                        <div class="sociala">
+                        <ul>
+                            <li><a href=""><ion-icon name="mail-open-outline"></ion-icon></a></li>
+                            <li><a href=""><ion-icon  name="logo-linkedin"></ion-icon></a></li>
+                            <li><a href=""><ion-icon name="logo-facebook"></ion-icon></a></li>
+                        </ul>
+                        </div>
+                      </figcaption>
+                    </figure>
+                    <h4>Member Name</h4>
+                    <p>Member Post</p>
+                  </div>
+                </div>
+      
+      
+            </div>
+        </div>
+    
+    </section>
+
+
 
 
     <footer id="footer">
         <div class="container">
-            <div class="row">
-                <div class="col-lg-4 col-md-6 footer-links">
-                    <h4>Navigation Links</h4>
-                    <ul>
-                        <li><i class=""></i> <a href="index.html">Home</a></li>
-                        <li><i class=""></i><a href="about.html">About Us</a></li>
-                        <li><i class=""></i><a href="programs.html">Our Programs</a></li>
-                        <li><i class=""></i><a href="mentor.html">Mentor</a></li>
-                        <li><i class=""></i><a href="contact.html">Connect</a></li>
-                    </ul>
-                </div>
-                <div class="col-lg-4 col-md-6 footer-contact">
-                    <h4>Contact Us</h4>
-                    <div class="">
-                        <b>Email</b> : synergyofficial123@gmail.com<br>
-                        <b>Support</b>: +91 9870346408
+            <div class="row footer-content">
+                <div class="col-lg-4 col-md-6 footer-nav">
+                    <div class="navi-links">
+                        <h4 class="footer-head">Navigation Links</h4>
+                        <ul class='nav-list'>
+                            <li><ion-icon name="arrow-forward-outline"></ion-icon><span><a href="index.html">Home</a></span></li>
+                            <li><ion-icon name="arrow-forward-outline"></ion-icon><span><a href="about.html">About Us</a></span></li>
+                            <li><ion-icon name="arrow-forward-outline"></ion-icon><span><a href="programs.html">Our Programs</a></span></li>
+                            <li><ion-icon name="arrow-forward-outline"></ion-icon><span><a href="projects.html">Projects</a></span></li>
+                            <li><ion-icon name="arrow-forward-outline"></ion-icon><span><a href="contact.html">Connect</a></span></li>          
+                        </ul>
                     </div>
                 </div>
-                <div class="col-lg-4 col-md-6 footer-info">
-                    <h4>Follow Us</h4>
-                    <div class="social-links mt-3">
-                        <a href="https://www.instagram.com/_synergycommunity_/" class="instagram"><i class="fa fa-instagram"></i></a>
-                        <a href="https://mail.google.com/mail/?view=cm&fs=1&to= synergyofficial123@gmail.com&body=Hey Team Synergy!" class=""><i class="fa fa-google"></i></a>
+                <div class="col-lg-4 col-md-6 footer-contact">
+                    <div class="contactus">
+                        <h4 class="footer-head">Contact Us</h4>
+                        <ul class='contact-list'>
+                            <li><ion-icon name="mail-open-outline"></ion-icon><span><a href="https://mail.google.com/mail/?view=cm&fs=1&to= synergyofficial123@gmail.com&body=Hey Team Synergy!">synergyofficial123@gmail.com</a></span></li>
+                            <li><ion-icon name="logo-whatsapp"></ion-icon><span><a href="https://api.whatsapp.com/send?phone=919930345080">9930345080</a></span></li>
+                            <li><ion-icon name="logo-whatsapp"></ion-icon><span><a href="https://api.whatsapp.com/send?phone=919930236209">9930236209</a></span></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6">
+                    <div class="social">
+                        <h4 class="footer-head">Follow Us</h4>
+                        <ul>
+                            <li><a href="https://www.linkedin.com/company/synergyofficial/"><ion-icon  name="logo-linkedin"></ion-icon></a></li>
+                            <li><a href="https://www.instagram.com/_synergycommunity_/"><ion-icon name="logo-instagram"></ion-icon></a></li>
+                            <li><a href="#" ><ion-icon name="logo-youtube"></ion-icon></a></li>
+                        </ul>
                     </div>
                 </div>
             </div>
@@ -120,5 +232,9 @@
     <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="/static/scripts/indexscript.js"></script>
+    <script src="https://unpkg.com/ionicons@5.0.0/dist/ionicons.js"></script>
+
 </body>
 </html>
