@@ -116,7 +116,7 @@
 @media (max-width: 508px)
 {
 
-    .slide-btn
+    .slide-btnr , .slide-btnl
     {
         background-color: #38B6FF;
         color: white;
@@ -127,7 +127,18 @@
         height: 50px;
         padding: 0;
         margin: 0;
-        display: inline-table;
+        /* display: inline-table; */
+    }
+
+    .slide-btnr
+    {
+        float: right;
+    }
+
+    .slide-btnl
+    {
+        margin: 0;
+        float: left;
     }
 
 
@@ -163,7 +174,23 @@
     }
 
 }
+@media (min-width: 375px)
+{
 
+    .prev
+    {
+        width: 315px;
+    }
+}
+
+@media (min-width: 425px)
+{
+
+    .prev
+    {
+        width: 355px;
+    }
+}
 
 
 @media (min-width: 768px)
@@ -235,7 +262,6 @@
         visibility: visible;
     }
 }
-
 
 
 .carousel-item img
@@ -349,38 +375,38 @@ h5:after
 @media (max-width:500px)
 {
 
-.modal-dialog
-{
-    animation:none;
-    margin:auto;
-}
+    .modal-dialog
+    {
+        animation:none;
+        margin:auto;
+    }
 
-.modal
-{
+    .modal
+    {
 
-    width: 300px;
-    margin: auto;
-    height: 600px;
-}
+        width: 300px;
+        margin: auto;
+        height: 600px;
+    }
 
-.modal-img
-{
-    height: 170px;
-    width: 220px;
-    padding-top: 10px;
-    border-radius: 6px;
-}
+    .modal-img
+    {
+        height: 170px;
+        width: 220px;
+        padding-top: 10px;
+        border-radius: 6px;
+    }
 
-h5
-{
-    padding: 0px;
-    margin:0px
-}
+    h5
+    {
+        padding: 0px;
+        margin:0px
+    }
 
-.modal-header
-{
-    align-self: center;
-    font-size: large;
+    .modal-header
+    {
+        align-self: center;
+        font-size: large;
 
-}
+    }
 }
