@@ -51,15 +51,12 @@
     padding-right: 25px;
     padding-left: 25px;
     padding-top: 30px;
-    /* z-index: -1; */
 }
-
 
 .card
 {
     margin: 10px;
     border-radius: 6px;
-    height:500px;
 }
 
 .card:hover, .card:focus
@@ -162,16 +159,12 @@
 
     .prev
     {
-        
         display: none;
     }
 
 }
 
-.carousel-item
-{
-    height: 530px !important;
-}
+
 
 @media (min-width: 768px)
 {
@@ -243,10 +236,7 @@
     }
 }
 
-.carousel-item
-{
-    height: 550px !important;
-} 
+
 
 .carousel-item img
 {
