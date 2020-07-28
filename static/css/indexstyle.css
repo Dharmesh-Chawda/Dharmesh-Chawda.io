@@ -5,11 +5,19 @@ html,body {
 
 }
 
-
 .navbar
 {
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     background-color: #38B6FF;
+}
+
+.nav-item
+{
+    font-size: 16px;
+    font-weight: bold;
+    color: #fff;
+    text-transform: uppercase;
+    position: relative;
 }
 
 .navbar-nav .nav-link , .navbar-brand
@@ -20,6 +28,21 @@ html,body {
 .navbar-nav .nav-item.active .nav-link
 {
     color:rgb(117, 92, 138) !important;
+}
+
+.navbar-nav .nav-item .nav-link:hover
+{
+    color:rgb(117, 92, 138) !important;
+}
+
+.navbar-brand
+{
+    color: white;
+}
+
+.navbar-brand:hover
+{
+    color: white;
 }
 
 .navbar-toggler:focus
@@ -41,7 +64,6 @@ html,body {
 .menu-toggle
 {
     justify-self: end;
-    margin-right: 25px;
     display: none;
 }
 
@@ -71,13 +93,8 @@ html,body {
     transform: translateY(-8px) rotate(-45deg);
 }
 
-@media only screen and (max-width: 720px)
+@media only screen and (max-width: 767px)
 { 
-    .features
-    {
-        flex-direction: column; 
-        padding: 50px;
-    }
     .menu-toggle, .bar
     {
         display: block;
@@ -87,13 +104,23 @@ html,body {
     .mobile-nav
     {
         transform: translate(0%)!important;
+        float: left;
+        padding-right: 0px;
+        margin-right: 0px;
     }
-
 }
 
 .intro-content
 {
     font-size: 20px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: black;
+}
+
+.intro-corousel
+{
+    font-size: 20px;
+    font-weight: bold;
 }
 
 .slide.carousel-item
@@ -104,15 +131,6 @@ html,body {
 .slide.carousel-item img
 {
     height: 500px;
-}
-
-.nav-item
-{
-    font-size: 16px;
-    font-weight: bold;
-    color: #fff;
-    text-transform: uppercase;
-    position: relative;
 }
 
 .container.content
