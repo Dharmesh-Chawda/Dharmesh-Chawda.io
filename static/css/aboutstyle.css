@@ -189,6 +189,14 @@
     color: rgba(49, 49, 49, .97);
 }
 
+@media (max-width:768px)
+{
+    .team-member
+    {
+        margin-bottom: 15px;
+    }
+}
+
 .sociala { text-align: center; }
 
 .sociala ul { padding-top: 0px; padding-inline-start: 0px;margin-left: 5px;}
